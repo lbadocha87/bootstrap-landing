@@ -1,0 +1,102 @@
+/* General styles */
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+section {
+    padding: 120px 0;
+}
+
+
+a,
+a:hover {
+    color: #e38f42;
+}
+
+.secondary-text-color {
+    color: #c2c2c2;
+}
+
+
+.heading-text-white {
+    color: #fff;
+}
+
+.btn-orange {
+    background-color: #e38f42;
+    border: 0;
+}
+
+.btn-orange:hover {
+    background-color: #e38f42;
+    opacity: 0.8;
+}
+
+.btn-gray {
+    background-color: rgba(0,0,0,0.35);
+    border: 0;
+}
+
+.btn-gray:hover {
+    background-color: rgba(0,0,0,0.35);
+    opacity: 0.8;
+}
+
+/* Nav styles */
+.navbar {
+    background-color: #444;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #c2c2c2;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: #c2c2c2;
+}
+
+/* Form section styles */
+.form-section {
+    background-image: url(../img/form-background.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #c2c2c2;
+}
+
+.form-section form {
+    background-color: rgba(0,0,0,0.3);
+}
+
+.form-section form header {
+    background-color: rgba(0,0,0,0.35);
+    padding: 25px;
+    margin: 0;
+}
+
+.form-section form header i {
+    font-size: 3.7em;
+    color: rgba(255,255,255,0.6);
+}
+
+.form-section form .form-fields {
+    padding: 25px;
+}
+
+.form-section form .form-fields input,
+.form-section form .form-fields textarea {
+    margin-bottom: 15px;
+}
+
+.form-section form .form-fields input[type="submit"] {
+    width: 100%;
+}
+
+
+@media (max-width: 992px) {
+    .main-header {
+        margin-top: 50px;
+    }
+}
